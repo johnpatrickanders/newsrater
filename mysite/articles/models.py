@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 class Article(models.Model):
     title = models.CharField(max_length=200)
     length = models.IntegerField()
-    source = models.CharField()
+    source = models.CharField(max_length=200)
     url = models.URLField(max_length=300)
     pub_date = models.DateTimeField('date published')
 
