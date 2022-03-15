@@ -75,10 +75,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'newsreader',
-        'USER': 'newsreaderuser',
-        'PASSWORD': 'password',
+        'USER': 'jpa',
+
+        # 'PASSWORD': '<password>',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 
